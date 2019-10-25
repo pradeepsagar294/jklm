@@ -1,4 +1,4 @@
 FROM jenkinsci/jenkins
-MAINTAINER me 
-ROOT user
+MAINTAINER Pradeep 
+USER root
 RUN apt-get update
